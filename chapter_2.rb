@@ -77,7 +77,6 @@ class Gear
     @chainring = chainring
     @cog       = cog
   end
-
   def ratio
     chainring / cog.to_f        # <-------
   end
@@ -241,3 +240,4 @@ puts Gear.new(52, 11, @wheel).gear_inches
 puts Gear.new(52, 11).ratio               
 # -> 4.72727272727273
 
+lll
